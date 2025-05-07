@@ -1,4 +1,5 @@
 import 'package:basic_flutter_animation/explicit_sampel/loading_animation.dart';
+import 'package:basic_flutter_animation/ticker_tanpa_animationcontroller/ticker_demo.dart';
 
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const RadialProgressAnimation(progress: 0.85, color: Colors.blue),
+      home: const TickerDemo(),
+      // home: const RadialProgressAnimation(progress: 0.85, color: Colors.blue),
       // home: const ListAnimation(),
       // home: const LoginScreenAnimation(),
       // home: const PulsatingCircleAnimation(),

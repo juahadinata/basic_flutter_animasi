@@ -1,16 +1,32 @@
-# basic_flutter_animation
+## Penerapan Animasi pada Widget Flutter
 
-A new Flutter project.
+#### 🔹 Level Dasar – Implicit Animations
+- AnimatedContainer
 
-## Getting Started
+- AnimatedOpacity
 
-This project is a starting point for a Flutter application.
+- AnimatedCrossFade
 
-A few resources to get you started if this is your first Flutter project:
+- AnimatedAlign, AnimatedPadding, dll.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Cocok untuk animasi ringan tanpa kontrol manual
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### 🔹 Level Menengah – Explicit Animations
+
+- AnimationController, TickerProviderStateMixin
+
+- Tween, CurvedAnimation
+
+- AnimatedBuilder
+
+- FadeTransition, ScaleTransition, SlideTransition
+
+Memberi kontrol penuh atas proses animasi.
+
+#### 🔹 Level Lanjutan – Hero & Page Transitions
+- Hero widget untuk animasi antar halaman
+
+- PageRouteBuilder untuk membuat transisi halaman kustom
+
+- ModalRoute.of(context) untuk mengatur durasi dan animasi keluar-masuk
+
