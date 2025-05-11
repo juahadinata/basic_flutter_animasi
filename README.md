@@ -1,7 +1,7 @@
 ## Penerapan Animasi pada Widget Flutter
 
 #### 🔹 Level Dasar – Implicit Animations
-- AnimatedContainer [Lihat Contoh](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/animated_color_palete.md)
+- AnimatedContainer : ```animated_color_palete.dart``` [Lihat Contoh](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/animated_color_palete.md)
 
 - AnimatedOpacity
 
