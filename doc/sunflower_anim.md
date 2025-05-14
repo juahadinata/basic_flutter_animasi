@@ -1,5 +1,5 @@
 
-![Loading animasi](sunflower_animation.gif)
+![Loading animasi](sunflower_animation_3.gif)
 
 
 #### Penjelasan Code ```sunflower_anim.dart```
@@ -206,7 +206,7 @@ Kemudian posisi titik (Dot) ditentukan oleh:
 alignment: Alignment(r * math.cos(theta), -1 * r * math.sin(theta)),
 ```
 📌 Penjelasan Detail:
-1. theta = i * tau / phi
+1. `theta = i * tau / phi`
 
     - theta adalah sudut (dalam radian) untuk titik ke-i.
 
@@ -216,13 +216,13 @@ alignment: Alignment(r * math.cos(theta), -1 * r * math.sin(theta)),
 
     - Ini yang menciptakan susunan spiral unik dan seimbang, karena jarak sudut antar biji selalu konstan tapi tidak pernah sejajar (tidak tumpang tindih).
 
-2. r = sqrt(i) * scaleFactor
+2. `r = sqrt(i) * scaleFactor`
 
     - r adalah jarak dari pusat ke biji ke-i.
 
     - Fungsi akar kuadrat menciptakan efek menyebar perlahan dari pusat ke luar.
 
-3. x = r * cos(theta) dan y = r * sin(theta)
+3. `x = r * cos(theta) dan y = r * sin(theta)`
 
     - Mengubah dari koordinat polar ke Cartesian agar bisa ditampilkan di layar.
 
