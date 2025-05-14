@@ -1,3 +1,7 @@
+
+![Loading animasi](sunflower_animation.gif)
+
+
 #### Penjelasan Code ```sunflower_anim.dart```
 Berikut adalah penjelasan baris demi baris dan per bagian dari kode Flutter di atas, yang membentuk tampilan visual pola bunga matahari (sunflower pattern) berbasis *matematika phyllotaxis*. Mari kita bedah satu per satu:
 

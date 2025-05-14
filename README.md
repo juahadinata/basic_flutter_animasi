@@ -1,13 +1,13 @@
 ## Penerapan Animasi pada Widget Flutter
 
 #### 🔹 Level Dasar – Implicit Animations
-- AnimatedContainer : ```animated_color_palete.dart``` [Lihat Contoh](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/animated_color_palete.md)
+- `AnimatedContainer` : ```animated_color_palete.dart``` [Lihat Contoh](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/animated_color_palete.md)
 
 - AnimatedOpacity
 
 - AnimatedCrossFade
 
-- AnimatedAlign, AnimatedPadding, dll.
+- `AnimatedAlign` : `sunflower_anim.dart` [Lihat Contoh](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/sunflower_anim.md)
 
 Cocok untuk animasi ringan tanpa kontrol manual
 

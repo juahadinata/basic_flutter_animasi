@@ -37,7 +37,7 @@ class _DemoTweenSequenceState extends State<DemoTweenSequence>
     super.dispose();
   }
 
-  void playAnimation() {
+  void _playAnimation() {
     setState(() {
       isOn = !isOn;
     });
@@ -71,7 +71,7 @@ class _DemoTweenSequenceState extends State<DemoTweenSequence>
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: playAnimation,
+        onPressed: _playAnimation,
         child: isOn ? const Icon(Icons.pause) : const Icon(Icons.play_arrow),
       ),
     );
