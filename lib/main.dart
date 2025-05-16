@@ -1,4 +1,4 @@
-import 'package:basic_flutter_animation/tweensequence_sampel/demo_tweensequence.dart';
+import 'package:basic_flutter_animation/children_column_anim/hybrid_column_animation.dart';
 
 import 'package:flutter/material.dart';
 
@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DemoTweenSequence(),
+      home: const HybridColumnAnimation(),
+      // home: const AnimatedColumnCustom(),
+      // home: const DemoTweenSequence(),
       // home: const Sunflower(),
       // home: const FadeRouteSampel(),
       // home: const SplashAnimation(),
