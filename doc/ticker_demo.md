@@ -87,5 +87,5 @@ Menunjukkan cara kerja Ticker secara eksplisit, tanpa bantuan AnimationControlle
 ##### 🎯 Intinya:
 - `AnimationController` = pembungkus `Ticker` + logika interpolasi (`Tween`, `status`, `reverse`, `repeat`, dll).
 
-- Tapi memahami `Ticker` membantu kita mengerti dasar cara kerja Flutter animation engine.
+- Dengan memahami `Ticker` membantu kita mengerti dasar cara kerja Flutter animation engine.
 
