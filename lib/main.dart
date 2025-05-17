@@ -1,4 +1,5 @@
 import 'package:basic_flutter_animation/children_column_anim/hybrid_column_animation.dart';
+import 'package:basic_flutter_animation/implicit_sampel/tween_animation_builder.dart';
 
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HybridColumnAnimation(),
+      // home: const HybridColumnAnimation(),
       // home: const AnimatedColumnCustom(),
       // home: const DemoTweenSequence(),
       // home: const Sunflower(),
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       // home: const RadialProgressAnimation(progress: 0.85, color: Colors.blue),
       // home: const ListAnimation(),
       // home: const LoginScreenAnimation(),
-      // home: const PulsatingCircleAnimation(),
+      home: const PulsatingCircleAnimation(),
       // home: const ShoppingCartButton(),
       // home: const AnimatedColorPalette(),
     );

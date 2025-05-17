@@ -1,13 +1,12 @@
 ## Penerapan Animasi pada Widget Flutter
 
 #### 🔹 Level Dasar – Implicit Animations
-- `AnimatedContainer` : ```animated_color_palete.dart``` [Lihat Contoh](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/animated_color_palete.md)
+- `AnimatedContainer` : `animated_color_palete.dart`[lihat contoh](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/animated_color_palete.md)
 
-- AnimatedOpacity
+- `TweenAnimationBuilder` : `tween_animation_builder.dart` [baca penjelasan](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/tween_animation_builder.md)
 
-- AnimatedCrossFade
 
-- `AnimatedAlign` : `sunflower_anim.dart` [Lihat Contoh](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/sunflower_anim.md)
+- `AnimatedAlign` : `sunflower_anim.dart` [baca penjelasan](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/sunflower_anim.md)
 
 Cocok untuk animasi ringan tanpa kontrol manual
 
@@ -29,6 +28,9 @@ Memberi kontrol penuh atas proses animasi.
 - PageRouteBuilder untuk membuat transisi halaman kustom
 
 - ModalRoute.of(context) untuk mengatur durasi dan animasi keluar-masuk
+
+#### 🔹 Ticker tanpa AnimationController
+- `ticker_demo.dart` : [baca penjelasan](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/ticker_demo.md)
 
 ##### ✅ Method Utama ```AnimationController```
 
