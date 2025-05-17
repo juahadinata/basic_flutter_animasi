@@ -65,27 +65,27 @@ class _TickerDemoState extends State<TickerDemo>
 Menunjukkan cara kerja Ticker secara eksplisit, tanpa bantuan AnimationController.
 
 #### 🧠 Konsep Singkat:
-Ticker itu seperti jam detak internal, yang:
+`Ticker` itu seperti jam detak internal, yang:
     - Memanggil callback sekali setiap frame (biasanya 60fps = 16.6ms/frame)
     - Memberikan informasi elapsed time sejak start
     - Harus di-dispose secara manual
 
 #### 🔍 Apa yang Terjadi?
-- Ticker dipanggil terus setiap frame.
+- `Ticker` dipanggil terus setiap frame.
 
-- elapsed menunjukkan waktu sejak _ticker.start() dipanggil.
+- `elapsed` menunjukkan waktu sejak `_ticker.start()` dipanggil.
 
-- Ukuran kotak (_boxSize) berubah mengikuti waktu → animasi manual!
+- Ukuran kotak (`_boxSize`) berubah mengikuti waktu → animasi manual!
 
 #### ⚠️ Kelemahan Pendekatan Ini:
-- Semua logika kamu tangani sendiri.
+- Semua logika kita tangani sendiri.
 
-- Harus ingat dispose(), atau Ticker akan bocor (leak).
+- Harus ingat `dispose()`, atau `Ticker` akan bocor (leak).
 
-- Tidak ada curve, repeat, reverse, dll → semua manual.
+- Tidak ada `curve`, `repeat`, `reverse`, dll → semua manual.
 
 ##### 🎯 Intinya:
-- AnimationController = pembungkus Ticker + logika interpolasi (Tween, status, reverse, repeat, dll).
+- `AnimationController` = pembungkus `Ticker` + logika interpolasi (`Tween`, `status`, `reverse`, `repeat`, dll).
 
-- Tapi memahami Ticker membantu kamu mengerti dasar cara kerja Flutter animation engine.
+- Tapi memahami `Ticker` membantu kita mengerti dasar cara kerja Flutter animation engine.
 
