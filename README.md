@@ -8,6 +8,10 @@
 
     - **AnimatedAlign** : `sunflower_anim.dart` [baca penjelasan](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/sunflower_anim.md)
 
+    - **AnimatedSwitcher dan showGeneralDialog dalam penggunaan transitionBuilder**
+         [baca penjelasan](https://github.com/juahadinata/basic_flutter_animasi/blob/main/doc/widget_using_transitionbuilder.md)
+
+
     Cocok untuk animasi ringan tanpa kontrol manual
 
 - #### 🔹 Level Menengah – Explicit Animations

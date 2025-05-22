@@ -1,5 +1,7 @@
 import 'package:basic_flutter_animation/fractionaltranslation_+_animatebuilder/fractionaltransalation_animatedbuilder.dart';
 import 'package:basic_flutter_animation/implicit_sampel/tween_animation_builder.dart';
+import 'package:basic_flutter_animation/widget_using_transitionbuilder/animatedswitcher_sampel.dart';
+import 'package:basic_flutter_animation/widget_using_transitionbuilder/show_generaldialog_sampel.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +20,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FractionalTranslationExample(),
+      // home: const AnimatedSwitcherDemo(),
+      home: const GeneralDialogDemo(),
+      // home: const FractionalTranslationExample(),
       // home: const HybridColumnAnimation(),
       // home: const AnimatedColumnCustom(),
       // home: const DemoTweenSequence(),
